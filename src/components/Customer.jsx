@@ -3,6 +3,8 @@ import stars from '../images/stars.png'
 import profile from '../images/profile.png'
 import buttons from '../images/buttons.svg'
 
+import './Customer.css'
+
 const Customer = () => {
   return (
     <div className="customers">
