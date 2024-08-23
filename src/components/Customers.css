@@ -1,0 +1,50 @@
+.customers{
+    margin-top: 100px;
+    padding: 50px 150px;
+    background-color: #f5474a11;
+
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title h2{
+    font-size: 40px;
+    line-height: 50px;
+    color: #241415;
+    width: 420px;
+}
+
+.cards{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.customer-card{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    width: 360px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    align-items: flex-start;
+}
+
+.customer-card p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #241415;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
