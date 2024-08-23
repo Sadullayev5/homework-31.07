@@ -1,6 +1,7 @@
 import Hero from "./components/Hero"
 import Nav from "./components/Nav"
-import Customers from "./components/customers"
+
+import Customer from "./components/Customer"
 import Footer from "./components/Footer"
 
 
@@ -11,7 +12,7 @@ function App() {
     <>
     <Nav/>
     <Hero/>
-    <Customers/>
+    <Customer/>
     <Footer/>
     </> 
   )

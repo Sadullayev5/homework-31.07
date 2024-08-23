@@ -1,10 +1,9 @@
 import React from 'react'
-import './customers.css'
 import stars from '../images/stars.png'
 import profile from '../images/profile.png'
 import buttons from '../images/buttons.svg'
 
-const Customers = () => {
+const Customer = () => {
   return (
     <div className="customers">
         <div className="title">
@@ -52,4 +51,4 @@ const Customers = () => {
   )
 }
 
-export default Customers
+export default Customer
